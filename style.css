@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px; 
+}
+
+.card{
+background:hsl(216, 50%, 16%);
+padding: 25px 25px;
+flex-basis: 55%;
+ margin-top: 15px;  
+display: flex;
+ flex-direction: column; 
+border-radius: 10px;
+gap: 0.9em; 
+}
+
+.equilibrim{
+    width: 350px;
+    height: 300px;
+}
+.hr4, h2{
+   color: hsl(0, 0%, 100%); 
+} 
+
+.hr0, .hr2, .hr3 {
+    color: hsl(215, 51%, 70%);
+}
+
+.hr1{
+    color: hsl(178, 100%, 50%);
+}
+
+.hr3a{ 
+    width: 25px;
+    height: 25px;
+    border: 1px solid white; 
+    border-radius: 50%;
+    margin-right: 5px;
+}
+hr{
+    color: hsl(215, 32%, 27%);
+    border: solid 0.2px;
+    size: 4px;
+}
+
+@media screen and (max-width:1440px;) {
+    .card{
+        background:hsl(216, 50%, 16%);
+    }
+}
+@media screen and (min-width:375px;) {
+    .card{
+        background:hsl(216, 50%, 16%);
+    }
+}
+.image{
+    display: flex;
+}
